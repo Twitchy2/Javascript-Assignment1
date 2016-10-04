@@ -1,0 +1,43 @@
+<%- include partials/header.ejs %>
+
+<!-- Code based off the instructions on http://www.onextrapixel.com/2013/01/18/creating-an-html5-responsive-ready-contact-form-with-javascript-detection/ -->
+<main class='Contact'>
+
+  <br />
+  <br />
+  <br />
+  <br />
+  <br />
+<form id="contact-form" action="mailto:sourceman2@gmail.com" method="text/plain">
+        <h3>Interested on what I can offer?</h3>
+        <h4>Tell me a bit about yourself, and I will get back to you!</h4>
+        <div>
+                <label>
+                        <span>Name: (required)</span>
+                        <input class="textBox" placeholder="Put in your name" type="text" tabindex="1" required autofocus>
+                </label>
+        </div>
+        <div>
+                <label>
+                        <span>Email: (required)</span>
+                        <input class="textBox" placeholder="Enter Email" type="email" tabindex="2" required>
+                </label>
+        </div>
+        <div>
+                <label>
+                        <span>Message: (required)</span>
+                        <textarea class="textBox" placeholder="Enter Message here" tabindex="5" required></textarea>
+                </label>
+        </div>
+        </main>
+        <div class="button">
+                <input type="submit" value="Send">
+        </div>
+</form>
+
+
+
+
+
+
+<%- include partials/footer.ejs %>

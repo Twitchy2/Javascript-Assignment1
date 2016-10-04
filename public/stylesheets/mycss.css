@@ -1,0 +1,74 @@
+/* Code that is mine */
+.black {
+  background-color: black;
+}
+
+.FirstMain {
+  position: absolute; top: 50px; left: 0; height: 100%; width: 100%;
+  background-color: black;
+  background-image: url('/images/guitar.jpg');
+  background-size: 1920px 1500px;
+  color: white;
+  text-align: center;
+  font-family: "Courier New", Courier, monospace;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+.Services {
+  position: absolute; top: 50px; left: 0; height: 100%; width: 100%;
+  background-color: black;
+  color: white;
+  text-align: center;
+  font-family: "Courier New", Courier, monospace;
+  background-image: url('/images/services.jpg');
+  background-size: 1920px 1500px;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+.projects {
+  position: absolute; top: 50px; left: 0; height: 100%; width: 100%;
+    background-color: black;
+    color: white;
+      text-align: center;
+      font-family: "Courier New", Courier, monospace;
+  }
+  .about {
+    position: absolute; top: 50px; left: 0; height: 100%; width: 100%;
+    background-color: black;
+    color: white;
+      text-align:left;
+      font-family: "Courier New", Courier, monospace;
+  }
+
+.footer {
+  color:white;
+  background-color: black;
+  position:fixed;
+  bottom:0; /*this keeps it at the bottom of the page*/
+}
+.Contact {
+  position: absolute; top: 50px; left: 0; width: 100%;
+  background-color: black;
+  color: white;
+  text-align: center;
+  font-family: "Courier New", Courier, monospace;
+  background-image: url('/images/piano');
+}
+
+.textBox {
+  text-align: center;
+  font-family: "Courier New", Courier, monospace;
+  color: black;
+}
+
+.button {
+  text-align: center;
+  font-family: "Courier New", Courier, monospace;
+  background-color: black;
+}
+
+.img {
+  position: fixed;
+  left: 1450px;
+  bottom: 0px;
+}
