@@ -23,7 +23,7 @@ Super cool site all about me and stuff-->
   color: white;
   text-align: center;
   font-family: "Courier New", Courier, monospace;
-  background-image: url('/images/services.jpg');
+  background-image: url('/images/services.jpg') fixed;
   background-size: 1920px 1500px;
   text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
 }
