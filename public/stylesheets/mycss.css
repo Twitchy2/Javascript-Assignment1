@@ -2,8 +2,11 @@
 .black {
   background-color: black;
 }
-
+/*<!--Logan Sikora Beder, Georigan College//
+Super cool site all about me and stuff-->
+*/
 .FirstMain {
+  /*Stuff here and below this follows a nice little theme*/
   position: absolute; top: 50px; left: 0; height: 100%; width: 100%;
   background-color: black;
   background-image: url('/images/guitar.jpg');

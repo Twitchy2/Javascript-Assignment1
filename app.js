@@ -1,3 +1,8 @@
+//This is the first form, I would assume, and thus I will put all of my stuff here//
+//Logan Sikora Beder, Georigan College//
+//Super cool site all about me and stuff//
+
+
 var express = require('express');
 var path = require('path');
 var favicon = require('serve-favicon');
